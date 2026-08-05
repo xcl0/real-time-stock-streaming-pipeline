@@ -1,0 +1,6 @@
+kafka-python-ng
+psycopg[binary]
+python-dotenv
+pydantic
+pytest
+ruff

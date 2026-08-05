@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project virtual environment
+.venv/
+
+# Private environment variables
+.env
+
+# Generated data
+data/*
+!data/.gitkeep
+
+# Spark-generated files
+spark-warehouse/
+metastore_db/
+checkpoints/
+
+# Local service storage
+docker-data/
+postgres-data/
+minio-data/
+
+# Logs
+*.log
+logs/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
